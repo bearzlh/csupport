@@ -2,11 +2,11 @@
 §  User Macros
 § ==========================================================
 
-SetMacro( 'AUTHOR',      'YOUR NAME' )
-SetMacro( 'AUTHORREF',   '' )
-SetMacro( 'COMPANY',     '' )
+SetMacro( 'AUTHOR',      'bearzlh' )
+SetMacro( 'AUTHORREF',   'https://github.com/bearzlh' )
+SetMacro( 'COMPANY',     'cloudwise' )
 SetMacro( 'COPYRIGHT',   '' )
-SetMacro( 'EMAIL',       '' )
+SetMacro( 'EMAIL',       'bear.zheng@yunzhihui.com' )
 SetMacro( 'LICENSE',     '' )
 SetMacro( 'ORGANIZATION','' )
 
@@ -64,10 +64,10 @@ IncludeFile( 'cpp.cpp.template'          )
 § =============================================================
 
 § browser for help templates (UNIX)
-SetMacro( 'HELP_BROWSER', 'firefox' )
+SetMacro( 'HELP_BROWSER', 'chrom' )
 
 § browser for help templates (Windows)
-§SetMacro( 'HELP_BROWSER', '"C:\Program Files\Mozilla Firefox\firefox.exe"' )
+§SetMacro( 'HELP_BROWSER', '"/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app"' )
 
 SetMacro( 'HelpPathEnglish', 'http://en.wiktionary.org/wiki/' )
 SetMacro( 'HelpPathDoxygen', 'http://www.stack.nl/~dimitri/doxygen/commands.html' )
