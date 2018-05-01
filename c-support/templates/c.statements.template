@@ -2,22 +2,11 @@
 do {
 <SPLIT>} while ( <CURSOR> );				/* -----  end do-while  ----- */
 == Statements.for == map:sf, shortcut:o  ==
-for ( <CURSOR>; ; )
-§
-§ The names INIT, CONDITION, INCREMENT, and 'for block' are used by the main
-§ plugin plugin/c.vim . Please do not change.
-§
-== Statements.for block == map:sfo, shortcut:r  ==
 |DefaultMacro( 'CONDITION', '{+CONDITION+}' )|
 |DefaultMacro( 'INCREMENT', '{+INCREMENT+}' )|
 for ( |INIT|<CURSOR>; |CONDITION|; |INCREMENT| ) {
 <SPLIT>}
-== Statements.range-based for == map:sfr, shortcut:a  ==
-for ( <CURSOR>: <-EXPRESSION-> ){
-<SPLIT>}
 == Statements.if == map:si, shortcut:i  ==
-if ( <CURSOR> )
-== Statements.if block == map:sif, shortcut:f  ==
 if ( <CURSOR> ) {
 <SPLIT><-IF_PART->
 }
@@ -36,7 +25,9 @@ else {
 <CURSOR><SPLIT>
 }
 == Statements.while == map:sw, shortcut:w  ==
-while ( <CURSOR> )
+while ( <CURSOR> ){
+    {+CONTENT+}
+}
 == Statements.while block == map:swh, shortcut:h  ==
 while ( <CURSOR> ) {
 <SPLIT>}

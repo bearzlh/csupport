@@ -22,7 +22,7 @@ static void <CURSOR>|FUNCTION_NAME| ( <+argument_list+> )
 <SPLIT>	return <+return_value+>;
 }
 == Idioms.main == map:im, shortcut:m  ==
-#include	<stdlib.h>
+#include <stdlib.h>
 
 /* 
  * ===  FUNCTION  ======================================================================
